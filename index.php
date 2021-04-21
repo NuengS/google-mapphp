@@ -40,7 +40,6 @@ function initMap() {
 
 
 function sarchLocation(){
-	var keyword = $("#keyword").val();
 	$.ajax({
 		type:"POST",
 		url: "jsonsearch.php",
